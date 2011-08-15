@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+             android:id="@+id/layout1"
+              
+              >                                                  
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:eventimage="http://schemas.android.com/apk/res/com.shaastra"
+android:orientation="vertical" 
+android:layout_width="fill_parent" 
+android:layout_height="190dp"
+android:scrollbars="none"
+android:isScrollContainer="false"
+android:background="@drawable/gradient"
+>
+
+<Gallery
+        android:id="@+id/gallerycat"
+        android:layout_width="fill_parent" 
+        android:layout_height="100dip" 
+        android:layout_alignParentBottom="true"
+        
+        />
+
+  </RelativeLayout>
+ <RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:eventimage="http://schemas.android.com/apk/res/com.shaastra"
+android:orientation="vertical" 
+android:layout_width="fill_parent" 
+android:layout_height="250dip"
+android:scrollbars="none"
+android:isScrollContainer="false"
+android:background="#FFFFFF"
+>
+ <Gallery
+        android:id="@+id/galleryeve"
+        android:layout_width="fill_parent" 
+        android:layout_height="100dip" 
+        android:layout_centerInParent="true"
+         />
+ </RelativeLayout>
+
+</LinearLayout>
